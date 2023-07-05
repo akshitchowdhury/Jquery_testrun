@@ -7,3 +7,10 @@ $("p").html("<h3> Dios Amigos </h3> ")
 $("button").click(function(){
     $("body").css("background-image", "url(img/download.png)")
 })
+
+
+$(document).keydown(function(event){
+
+    $("h1").text(event.key);
+
+})
